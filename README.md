@@ -59,10 +59,7 @@ PFE 45
 
 ## 🖼️ Preview
 
-![EMR Cluster Preview](![EMR Cluster Preview](https://raw.githubusercontent.com/PrakshaliShah/hadoop-mapreduce-stock-price-analysis/main/emr-cluster-preview.png)
-)
+![EMR Cluster Preview](emr-cluster-preview.png)
 
 > *This image shows the AWS EMR job setup or SSH terminal output during the Hadoop streaming job.*
-
----
 
