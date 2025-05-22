@@ -32,3 +32,35 @@ hadoop jar /usr/lib/hadoop-mapreduce/hadoop-streaming.jar \
  -output /user/hadoop/output \
  -mapper mapper.py \
  -reducer reducer.py
+
+---
+
+## 📄 Sample Input (`NYSE_DATA.txt`)
+
+CAH,Mon,48  
+GE,Tue,12  
+MCD,Wed,170  
+PFE,Thu,40  
+BAC,Fri,26  
+
+---
+
+## 🖥️ Sample Output (from `reducer.py`)
+
+BAC 26
+CAH 56
+GE 15
+MCD 175
+PFE 45
+
+
+---
+
+## 🖼️ Preview
+
+(emr-cluster-preview.png)
+
+> *This image shows the AWS EMR job setup or SSH terminal output during the Hadoop streaming job.*
+
+
+
