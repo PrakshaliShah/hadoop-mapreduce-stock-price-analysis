@@ -41,7 +41,8 @@ CAH,Mon,48
 GE,Tue,12  
 MCD,Wed,170  
 PFE,Thu,40  
-BAC,Fri,26  
+BAC,Fri,26
+...  
 
 ---
 
@@ -58,7 +59,7 @@ PFE 45
 
 ## 🖼️ Preview
 
-![EMR Cluster Preview](emr-cluster-preview.png)
+(emr-cluster-preview.png)
 
 > *This image shows the AWS EMR job setup or SSH terminal output during the Hadoop streaming job.*
 
