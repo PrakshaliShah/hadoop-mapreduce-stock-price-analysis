@@ -19,7 +19,7 @@ Executed on **AWS EMR** as a real-world distributed data processing task.
 - [`mapper.py`](mapper.py): Extracts `<symbol>\t<price>` from each line  
 - [`reducer.py`](reducer.py): Aggregates values to find max price per symbol  
 - [`NYSE_DATA.txt`](NYSE_DATA.txt): Sample dataset used in testing  
-- [`aws-emr-job-writeup.pdf`](aws-emr-job-writeup.pdf): Lab summary (optional)  
+- [`aws-emr-job-writeup.pdf`](aws-emr-job-writeup.pdf): Project Summary 
 - [`emr-cluster-preview.png`](emr-cluster-preview.png): Screenshot of job execution  
 
 ---
